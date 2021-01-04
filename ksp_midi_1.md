@@ -65,9 +65,9 @@ wanted to send *and receive* precise informations to and from game, and gamepad
 emulation wasn't going to cut it. Not only was it limiting input options, it
 had not way of outputting information like position, stored resources, etc.
 So community developed mods to do just that. Previously mentioned subreddit
-[`/r/KerbalControllers`](reddit.com/r/KerbalControllers) has a pinned list of
-such mods. "Bingo", I said to myself, "with so many options, it's gonna be a
-cakewalk".
+[`/r/KerbalControllers`](reddit.com/r/KerbalControllers) has a pinned thread
+with list of such mods. "Bingo", I said to myself, "with so many options, it's
+gonna be a cakewalk".
 
 ## Serial
 
