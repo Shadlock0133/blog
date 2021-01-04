@@ -2,6 +2,8 @@
 
 > Inspired by fasterthenli.me
 
+> [Code at this point of time](https://github.com/Shadlock0133/midi/tree/dd231cff14b8e9a7dc5711c264a2779d5e9c505a)
+
 I recently bought myself a MIDI controller (M-Audio Axiom Air Mini 32). I want
 to learn making music, and it seemed like a good beginner device. 'Tho,
 honestly, I also bought it thinking about making it into KSP controller.
