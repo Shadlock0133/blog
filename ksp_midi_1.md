@@ -162,28 +162,29 @@ compatibility with KSP 1.5 (newest being 1.11).
 ## Extra: MIDI Reference
 
 NOn - NoteOn, CC - CommandChange; NoteOff isn't used
+
 Midi signals in "HyperCtrl" mode:
 
-piano: port 1; channel 1; NOn;
+- piano: port 1; channel 1; NOn;
     pitch 0-127; velocity 1-127 on press, 0 on de-press
 
-pads: port 2; channel 16 on bank 1, 15 on bank 2; NOn;
+- pads: port 2; channel 16 on bank 1, 15 on bank 2; NOn;
     pitch 81-88; velocity like piano keys
 
-knobs: port 2; channel 16; CC;
+- knobs: port 2; channel 16; CC;
     pitch 33-40; vel. marks rotation, 0 is most left
 
-buttons:
- - sustain - port 1; channel 1; CC; pitch 64; vel. 127 press, 0 de-press
- - mod - port 1; channel 1; CC; pitch 1;
-    vel. 0-127-0, ramps up on hold, down on release
- - dirs and playback - port 2; channel 16; CC; vel. 127 press, 0 de-press;
-    pitch:
-     - 98 - center
-     - 99 - left
-     - 100 - right
-     - 101 - up
-     - 102 - right
-     - 116 - stop
-     - 117 - play
-     - 118 - record
+- buttons:
+    - sustain - port 1; channel 1; CC; pitch 64; vel. 127 press, 0 de-press
+    - mod - port 1; channel 1; CC; pitch 1;
+        vel. 0-127-0, ramps up on hold, down on release
+    - dirs and playback - port 2; channel 16; CC; vel. 127 press, 0 de-press;
+        pitch:
+        - 98 - center
+        - 99 - left
+        - 100 - right
+        - 101 - up
+        - 102 - right
+        - 116 - stop
+        - 117 - play
+        - 118 - record
